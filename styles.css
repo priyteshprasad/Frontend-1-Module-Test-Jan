@@ -3,7 +3,7 @@
 
 .hero{
     /* background-color: yellow; */
-    background-image: url("./assets/Rectangle\ 1.svg");
+    background-image: url("Rectangle\ 1.svg");
     background-size: cover;
     background-repeat: no-repeat;
     height: fit-content;
