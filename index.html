@@ -1,96 +1,370 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Module Test</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
-    <link rel="stylesheet" href="styles.css" />
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Module Test</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
+
 <body>
-    <header>
-        <nav class="navbar navbar-expand-lg navbar-light bg-light">
-            <div class="container-fluid">
-              <img src = "Logo.svg" alt="logo"/>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Home</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link active" aria-current="page" href="#">Shop</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link" href="#">About Us</a>
-                  </li>
-                  <li class="nav-item">
-                    <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Lookups</a>
-                  </li>
-                </ul>
-                <!-- icons -->
-                <ul class="navbar-nav  mb-2 mb-lg-0">
-                  <li class="nav-item mx-3">
-                    <img src = "Search.png" alt="logo" height="20px"/>
-              
-                  </li>
-                  <li class="nav-item mx-3">
-                    <img src = "User.png" alt="logo" height="20px"/>
-              
-                  </li>
-                  <li class="nav-item mx-3">
-                    <img src = "Notification.png" alt="logo" height="20px"/>
-                  </li>
-                  
-                  
-                </ul>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+      <div class="container-fluid">
+        <img class="mx-4" src="Logo.svg" alt="logo" />
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0 mx-4">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Shop</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" aria-current="page">About Us</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link active" href="#" tabindex="-1" aria-disabled="true">Lookups</a>
+            </li>
+          </ul>
+          <!-- icons -->
+          <ul class="navbar-nav  mb-2 mb-lg-0">
+            <li class="nav-item mx-3">
+              <img src="Search.png" alt="logo" height="20px" />
 
-                
-              </div>
-            </div>
-          </nav>
+            </li>
+            <li class="nav-item mx-3">
+              <img src="User.png" alt="logo" height="20px" />
 
-    </header>
+            </li>
+            <li class="nav-item mx-3">
+              <img src="Notification.png" alt="logo" height="20px" />
+            </li>
 
 
-    <div class="hero  m-4 p-4 d-flex justify-content-evenly">
-        <div class="fashion m-4 ">
-            <p>Limited Time only For Winter</p>
-            <img src="fashion.png" alt="fashin.png" height="20px">
-            <h3>LOOK YOUR BEST ON YOUR BEST DAY</h3>
-            <button type="button" class="btn btn-danger">Explore Now</button>
+          </ul>
+
+
         </div>
-        <div class="cart-girl">
-            <img src="Poster Picture.png" alt="girl in cart" height="200px">
-        </div>
+      </div>
+    </nav>
+
+  </header>
+
+
+  <div class="hero  m-4 p-4 d-flex justify-content-evenly">
+    <div class="fashion m-4 ">
+      <p>Limited Time only For Winter</p>
+      <img src="fashion.png" alt="fashin.png" height="100px">
+      <h3>LOOK YOUR BEST ON YOUR BEST DAY</h3>
+      <button type="button" class="btn btn-danger">Explore Now</button>
     </div>
-    <div class="collection d-flex flex-column justify-content-center">
-        <h6 class="text-center">COLLECTION</h6>
-        <h2 class="text-center ">Our Top Collection</h2>
-        <div class="button-collection d-flex justify-content-center m-3">
-            <button type="button" class="btn btn-light mx-4">Jewellery</button>
-            <button type="button" class="btn btn-danger mx-4">Accessories</button>
-            <button type="button" class="btn btn-light mx-4">Dresses</button>
-            <button type="button" class="btn btn-light mx-4">Footwear</button>
-        </div>
-
-        <div class="card m-4 d-flex " style=" background-color: pink; width: 200px;">
-            <img src="PngItem_1171479-1.png" width="200px">
-            <h4>Nike Hoodie</h4>
-            <h4>Imported</h4>
-            <div class="d-flex justify-content-between align-items-center m-4">
-                <button type="button" class="btn btn-danger ">buy </button>
-                <img src="Rating.png" height="20px">
-            </div>
-            
-        </div>
+    <div class="cart-girl">
+      <img src="Poster Picture.png" alt="girl in cart" height="350px">
     </div>
-    <div class="new-arrival"></div>
-    <div class="categories"></div>
-    <footer></footer>
-    <!-- Header
+  </div>
+  <div class="collection d-flex flex-column justify-content-center">
+    <h6 class="text-center">COLLECTION</h6>
+    <h2 class="text-center ">Our Top Collection</h2>
+    <div class="button-collection d-flex justify-content-center m-3">
+      <button type="button" class="btn btn-light mx-4">Jewellery</button>
+      <button type="button" class="btn btn-danger mx-4">Accessories</button>
+      <button type="button" class="btn btn-light mx-4">Dresses</button>
+      <button type="button" class="btn btn-light mx-4">Footwear</button>
+    </div>
+
+
+    <div class="m-4 d-flex p-4 justify-content-evenly">
+      <div class="card m-3 p-0 col-12 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="border-radius: 20px;">
+        <div style="height: 75%; overflow: hidden; text-align: center; background-color: peachpuff;">
+          <img src="./PngItem_1171479.png" alt="project_image" height="100%">
+ 
+        </div>
+        <div id="card_body" class="p-3" style="">
+          <h4>Nike Air Men's Hoodie - Imported</h4>
+          <h6>Hoodie Red</h6>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-danger rounded-pill px-4" style="height: 40px;">$ 150</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 p-0 col-12 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="border-radius: 20px;">
+        <div style="height: 75%; overflow: hidden; text-align: center; background-color: peachpuff;">
+          <img src="./gratis-png-vestido-azul-cintura-escote-surplice-mujer-vestido-azul-retro-removebg-preview 1.png" alt="project_image" height="100%">
+ 
+        </div>
+        <div id="card_body" class="p-3" style="">
+          <h4>Armani Frok Ladies- Imported</h4>
+          <h6>Fork Blue</h6>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-danger rounded-pill px-4" style="height: 40px;">$ 250</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card m-3 p-0 col-12 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="border-radius: 20px;">
+        <div style="height: 75%; overflow: hidden; text-align: center; background-color: peachpuff;">
+          <img src="./apple-watch-series-2-hardware-3-aluminium-removebg-preview 1.png" alt="project_image" height="100%">
+ 
+        </div>
+        <div id="card_body" class="p-3" style="">
+          <h4>Apple Watch Series 6- Silver</h4>
+          <h6>Band</h6>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-danger rounded-pill px-4" style="height: 40px;">$ 450</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  <div class="new-arrival">
+    <h6 class="text-center">NEW ARRIVAL</h6>
+    <h2 class="text-center ">Latest Collection</h2>
+
+    <div class="d-flex m-4 justify-content-around w-100">
+      <div class="d-flex flex-column h-100 m-4 justify-content-evenly">
+        <div class="my-4" style="position: relative;">
+          <img class=" h-100" src="./Poster 1.png" alt="">
+          <div style="position: absolute; left: 40px; bottom: 10px; color: white;">
+            <p>2021 Trends <br><i>Women's Smart Skirt</i></p>
+          </div>
+        </div>
+        
+        <div class="my-4" style="position: relative;">
+          <img class=" h-100" src="./Poster 2.png" alt="">
+          <div style="position: absolute; left: 40px; bottom: 10px; color: white;">
+            <p>2021 Trends <br><i>Women's Smart Skirt</i></p>
+          </div>
+        </div>
+        
+      </div>
+      <div class="my-4" style="position: relative; ">
+        <img class="" src="./Poster 3.png" alt="">
+        <div style="position: absolute; left: 40px; bottom: 50px; color: white;">
+          <p>2021 Trends <br><i>Women's Smart Skirt</i></p>
+          <br>
+          <p>Discover More</p>
+        </div>
+      </div>
+
+      
+
+    </div>
+  </div>
+  <div class="categories">
+    <h6 class="text-center">Category</h6>
+    <h2 class="text-center ">2021 Latest Collection</h2>
+
+    <div id="car_collection" class="row m-5 d-flex p-4 justify-content-around flex-wrap">
+
+      <div class="card p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin-left: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card  p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+      <div class="card p-0 col-3 mt-3 col-sm-6 col-md-3 rounded-5 overflow-hidden" style="margin: 4px; width: 20%;">
+        <img src="./PngItem_1171479-1.png" alt="project_image">
+
+        <div id="" class="p-3" style="background-color: pink;">
+          <h4>Nike Hoodie - Imported</h4>
+          <div class="d-flex justify-content-between align-items-center">
+
+            <button type="button" class="btn btn-light rounded-pill">Rs 1000</button>
+            <img src="./Rating.png" alt="4/5">
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+  </div>
+  <footer class=" row" style="background-color: blanchedalmond; width: 100%; flex-wrap: nowrap;">
+    <div class="footer col-3 m-4 p-4">
+      <div class="copy_right">
+        <img src="/Logo.svg" alt="">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Iste, nihil aut tempore non quis incidunt.
+        </p>
+        <div>
+          <a href="#" class="fa fa-facebook"></a>
+          <a href="#" class="fa fa-twitter"></a>
+          <a href="#" class="fa fa-google"></a>
+          <a href="#" class="fa fa-linkedin"></a>
+        </div>
+        <br>
+        <p class="text-danger"> Copyrights 2021</p>
+        <p class="text-danger"> @priytesh</p>
+      </div>
+    </div>
+    <div class="footer col-1 m-4 p-4">
+      <h5>Product</h5>
+      <!-- <ul style="list-style-type:none">
+        <li><a href="">Download</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Locations</a></li>
+        <li><a href="">Server</a></li>
+        <li><a href="">Countries</a></li>
+      </ul> -->
+      <br>
+      <p>Download</p>
+      <p>Pricing</p>
+      <p>Locations</p>
+      <p>Server</p>
+      <p>Countries</p>
+      
+    </div>
+    <div class="footer col-1 m-4 p-4">
+      <h5>Category</h5>
+      <!-- <ul style="list-style-type:none">
+        <li><a href="">Download</a></li>
+        <li><a href="">Pricing</a></li>
+        <li><a href="">Locations</a></li>
+        <li><a href="">Server</a></li>
+        <li><a href="">Countries</a></li>
+      </ul> -->
+      <br>
+      <p>Men</p>
+      <p>Women</p>
+      <p>Kids</p>
+      <p>Best Seller</p>
+      <p>New Arrivals</p>
+      
+    </div>
+    <div class="footer col-2  m-4 p-4">
+      <h5>My Account</h5>
+      
+      <br>
+      <p>My Account</p>
+      <p>Discount</p>
+      <p>Return</p>
+      <p>Order History</p>
+      <p>Order Tracting</p>
+      
+    </div>
+    <div class="footer col-3 m-4 p-4">
+      <div class="copy_right">
+        <h5>Contact Us</h5>
+        
+        <div class="d-flex align-items-center ">
+          <div class="bg-danger rounded-circle p-1 m-2">
+            <img src="./Location.png" height="20px" >
+          </div>
+          
+          <pclass="mt-2">123 Street Trafford, London, UK</p>
+        </div>
+        <div class="d-flex align-items-center ">
+          <div class="bg-danger rounded-circle p-1 m-2 align-items-center">
+            <img src="./Phone.png" height="20px" >
+          </div>
+          
+          <p class="mt-2">+91 123 123456</p>
+        </div>
+        <div class="d-flex align-items-center ">
+          <div class="bg-danger rounded-circle p-1 m-2">
+            <img src="./Envelope.png" height="20px">
+          </div>
+          
+          <p class="mt-2">info@sitename.com</p>
+        </div>
+        <br>
+        
+      </div>
+    </div>
+
+  </footer>
+  <!-- Header
 Hero Component
 Collection Component
 New Arrival Component
@@ -98,8 +372,13 @@ Categories Component
 Footer -->
 
 
-    
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+
+  <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+    integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+    integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+    crossorigin="anonymous"></script>
 </body>
+
 </html>
